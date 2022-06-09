@@ -1,0 +1,151 @@
+.img_one {
+    left: 10%;
+    top: 10%;
+    transform: rotate(-20deg);
+}
+
+.img_two {
+    left: 30%;
+    top: 30%;
+    transform: rotate(2deg);
+}
+
+.img_three {
+    left: 50%;
+    top: 50%;
+    transform: rotate(60deg);
+}
+
+.img_four {
+    left: 70%;
+    top: 50%;
+    transform: rotate(-72deg);
+}
+
+.img_five {
+    left: 10%;
+    top: 50%;
+    transform: rotate(10deg);
+}
+
+.img_six {
+    left: 50%;
+    top: 10%;
+    transform: rotate(45deg);
+}
+
+.img_seven {
+    left: 72%;
+    top: 10%;
+    transform: rotate(45deg);
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1279px)  {
+    .img_one {
+        left: 5%;
+        top: 15%;
+        transform: rotate(-20deg);
+    }
+    
+    .img_two {
+        left: 25%;
+        top: 35%;
+        transform: rotate(2deg);
+    }
+    
+    .img_three {
+        left: 45%;
+        top: 55%;
+        transform: rotate(60deg);
+    }
+    
+    .img_four {
+        left: 65%;
+        top: 55%;
+        transform: rotate(-10deg);
+    }
+    
+    .img_five {
+        left: 5%;
+        top: 55%;
+        transform: rotate(10deg);
+    }
+    
+    .img_six {
+        left: 45%;
+        top: 15%;
+        transform: rotate(45deg);
+    }
+    
+    .img_seven {
+        left: 67%;
+        top: 15%;
+        transform: rotate(10deg);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .img_one {
+        left: 10%;
+        top: 10%;
+        transform: rotate(-20deg);
+    }
+    
+    .img_two {
+        left: 10%;
+        top: 30%;
+        transform: rotate(2deg);
+    }
+    
+    .img_three {
+        left: 45%;
+        top: 55%;
+        transform: rotate(60deg);
+    }
+    
+    .img_five {
+        left: 10%;
+        top: 55%;
+        transform: rotate(10deg);
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    .img_four {
+        left: 60%;
+        top: 45%;
+        transform: rotate(-10deg);
+    }
+
+    .img_six {
+        left: 35%;
+        top: 30%;
+        transform: rotate(45deg);
+    }
+
+    .img_seven {
+        left: 55%;
+        top: 10%;
+        transform: rotate(10deg);
+    }    
+}
+
+
+@media only screen and (max-width: 320px) {
+    .img_four {
+        display: none;
+    }
+
+    .img_six {
+        left: 40%;
+        top: 40%;
+        transform: rotate(45deg);
+    }
+        
+    .img_seven {
+        left: 45%;
+        top: 10%;
+        transform: rotate(10deg);
+    }    
+}

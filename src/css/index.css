@@ -1,0 +1,16 @@
+@import url(./root/root.css);
+@import url(./animations/animations.css);
+@import url(./showcase/showcase.css);
+@import url(./main/main.css);
+@import url(./footer/footer.css);
+@import url(./others/others.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}

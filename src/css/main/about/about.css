@@ -1,0 +1,115 @@
+#about {
+    height: 110vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5% repeat(3, 30%);
+}
+
+#about div figure {
+    height: 90%;
+    width: 30%;
+    margin-right: 10px;
+}
+
+#about div p {
+    height: 80%;
+    flex: 0.6;
+    width: 50%;
+    font-size: 0.9rem;
+    background-color: #db1406c0;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#about div figure img {
+    height: 100%;
+    width: 100%;
+}
+
+#about #story {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about #team {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about #quality {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    #about #story {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    #about #team {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+    
+    #about #quality {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #about {    
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        height: auto;
+    }
+
+    #about div p {
+        font-size: 0.6rem;
+        height: auto;
+        flex: 0.9;
+    }
+
+    #about div figure {
+        width: 80%;
+        height: 40%;
+    }
+
+    #about #team p {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex: 0.3;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+    #about div p {
+        font-size: 0.6rem;
+        height: 100px;
+    }
+
+    #about div figure {
+        height: 80%;
+    }
+
+    #about div {
+        flex: 0.30;
+        justify-content: space-evenly;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        row-gap: 10px;
+    }
+}

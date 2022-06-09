@@ -1,0 +1,94 @@
+.photo-metadata {
+    position: absolute;
+    top: 55%;
+    width: 80%;
+    max-width: 80%;
+    left: 10%;
+    height: 45%;
+    display: grid;
+    grid-template-areas: 
+    "author author author"
+    "clientName clientName clientName"
+    "clientWords clientWords clientWords"
+    "date date date";
+
+    grid-template-rows: 10% 10% 70% 10%;
+}
+
+.photo-metadata .author {
+    grid-area: author;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5px;
+}
+
+.photo-metadata .clientName {
+    grid-area: clientName;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5px;
+}
+
+.photo-metadata #client-words {
+    grid-area: clientWords;
+    word-wrap: break-word;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.photo-metadata time {
+    grid-area: date;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 321px) and (max-width: 1279px) {
+    .photo-metadata {
+        grid-template-rows: 15% 15% 55% 15%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1279px) {
+    .photo-metadata h2 {
+        font-size: 0.8rem;
+    }
+
+    .photo-metadata time {
+        font-size: 0.6rem;
+    }
+
+    .photo-metadata #client-words {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-metadata h2 {
+        font-size: 0.6rem;
+    }
+
+    .photo-metadata time {
+        font-size: 0.5rem;
+    }
+
+    .photo-metadata #client-words {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-metadata h2 {
+        font-size: 0.8rem;
+    }
+
+    .photo-metadata time {
+        font-size: 0.7rem;
+    }
+
+    .photo-metadata #client-words {
+        font-size: 0.8rem;
+    }
+}

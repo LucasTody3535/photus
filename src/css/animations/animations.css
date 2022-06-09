@@ -1,0 +1,61 @@
+@keyframes growHighlight {
+    to {
+        left: 30%;
+        transform: none;
+        height: 70%;
+        width: 35%;
+        top: 20%;
+        z-index: 20000;
+    }
+}
+
+.growHighlight {
+    animation-name: growHighlight;
+    animation-duration: 2s;
+}
+
+.resetHighlight {
+    animation-name: growHighlight;
+    animation-duration: 2s;
+    animation-direction: reverse;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    @keyframes growHighlight {
+        to {
+            left: 25%;
+            transform: none;
+            height: 60%;
+            width: 50%;
+            top: 20%;
+            z-index: 20000;
+        }
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    @keyframes growHighlight {
+        to {
+            left: 15%;
+            transform: none;
+            height: 50%;
+            width: 70%;
+            top: 20%;
+            z-index: 20000;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    @keyframes growHighlight {
+        to {
+            left: 15%;
+            transform: none;
+            height: 65%;
+            width: 70%;
+            top: 20%;
+            z-index: 20000;
+        }
+    }
+}
