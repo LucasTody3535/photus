@@ -3,4 +3,11 @@
     --secondary-color: #db1406ec;
     font-size: 20px;
     scroll-behavior: smooth;
+
+    --color-bg: "";
+    --color-text: "";
+    --color-cards: "";
+    --color-bg-heading: "";
+    --color-scroll-btn: "";
+    --color-lines: "";
 }
