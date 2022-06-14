@@ -12,7 +12,8 @@ section h3 {
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid black;
-    background-color: #db1406ec;
+    background-color: var(--color-bg-heading);
+    /*background-color: #db1406ec;*/
     height: 5vh;
     font-size: 0.9rem;
 }

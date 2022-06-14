@@ -1,5 +1,5 @@
 footer {
-    background-color: #db1406ec;
+    background-color: var(--color-bg-heading);
     height: 10vh;
     display: flex;
     justify-content: center;

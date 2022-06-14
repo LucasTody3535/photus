@@ -1,6 +1,7 @@
 :root {
-    --main-color: #d89417;
-    --secondary-color: #db1406ec;
+    /*
+    --color: #972b6e;
+    --secondary-color: #d43c31ec;*/
     font-size: 20px;
     scroll-behavior: smooth;
 
@@ -10,4 +11,6 @@
     --color-bg-heading: "";
     --color-scroll-btn: "";
     --color-lines: "";
+    --color-border: "";
+    --color-form-btn: "";
 }
