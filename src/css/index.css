@@ -5,6 +5,7 @@
 @import url(./main/main.css);
 @import url(./footer/footer.css);
 @import url(./others/others.css);
+@import url(./theme-btn/theme.btn.css);
 
 body {
     margin: 0;

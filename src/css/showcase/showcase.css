@@ -4,23 +4,23 @@
 #title {
     height: 10vh;
     display: flex;
-    color: var(--color-text);
+    color: var(--text-color-heading);
     align-items: center;
     justify-content: center;
-    background-color: var(--color-bg-heading);
-    border-bottom: 2px solid var(--color-border);;
+    background-color: var(--bg-color-heading);
+    border-bottom: 2px solid var(--bd-color-global);;
 }
 
 #showcase-images {
     width: 100%;
     height: 90vh;
     position: relative;
-    background-color: var(--color-bg);
+    background-color: var(--bg-color-global);
 }
 
 #showcase-images .photo {
     height: 300px;
-    background-color: var(--color-bg-photo);
+    background-color: var(--bg-color-photos);
     width: 250px;
     position: absolute;
     border: 1px solid black;
@@ -53,7 +53,7 @@
 
 #showcase-images .photo h3::after {
     content: " ";
-    background-color: var(--color-border);
+    background-color: var(--bd-color-global);
     height: 1px;
     left: 10%;
     top: 100%;

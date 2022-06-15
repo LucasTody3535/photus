@@ -1,5 +1,5 @@
 footer {
-    background-color: var(--color-bg-heading);
+    background-color: var(--bg-color-footer);
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -8,6 +8,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: var(--text-color-footer);
     font-size: 0.9rem;
 }

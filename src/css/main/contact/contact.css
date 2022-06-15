@@ -1,7 +1,7 @@
 #contact {
     height: 90vh;
     width: 100%;
-    background-color: var(--color-bg);
+    background-color: var(--bg-color-global);
 }
 
 #contact #form {
@@ -20,7 +20,7 @@
 #contact form {
     width: 40%;
     height: 70%;
-    background-color: var(--color-cards);
+    background-color: var(--bg-color-form);
     padding: 10px;
     display: grid;
     grid-template-rows: 18% 18% 40% 20%;
@@ -28,7 +28,7 @@
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border: 1px solid black;
-    box-shadow: 0 0 2px 2px black;
+    box-shadow: 0 0 1px 1px var(--bd-color-global);
 }
 
 #contact form div {
@@ -44,6 +44,7 @@
     height: 30%;
     display: flex;
     align-items: center;
+    color: var(--text-color-form);
 }
 
 #contact form div input {
@@ -86,7 +87,7 @@
     height: 50%;
     border-radius: 10px;
     border: 1px solid black;
-    background-color: var(--color-form-btn);
+    background-color: var(--form-action-btn-bg);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -109,7 +110,6 @@
 
 @media screen and (max-width: 767px) {
     #contact {
-        margin-top: 20px;
         height: 100vh;
     }
 

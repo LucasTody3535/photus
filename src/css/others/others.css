@@ -6,14 +6,14 @@
     height: 50px;
     width: 50px;
     border-radius: 25px;
-    background-color: var(--color-scroll-btn);
+    background-color: var(--bg-color-scroll-btn);
     border: 1px solid black;
     position: absolute;
     top: 90%;
 }
 
 .scroll-btn:hover {
-    box-shadow: 0 0 5px 1px black;
+    box-shadow: 0 0 10px 1px black;
     height: 52px;
     width: 52px;
 }

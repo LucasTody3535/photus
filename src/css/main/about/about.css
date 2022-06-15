@@ -3,7 +3,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 5% repeat(3, 30%);
-    background-color: var(--color-bg);
+    background-color: var(--bg-color-global);
 }
 
 #about div figure {
@@ -17,13 +17,13 @@
     flex: 0.6;
     width: 50%;
     font-size: 0.9rem;
-    background-color: var(--color-cards);
+    background-color: var(--bg-color-info-cards);
     /*background-color: #db1406c0;*/
     padding: 10px;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border: 1px solid var(--color-border);
-    color: var(--color-text);
+    border: 1px solid var(--bd-color-global);
+    color: var(--text-color-info-cards);
 }
 
 #about div figure img {
@@ -67,6 +67,7 @@
     #about #quality {
         flex-wrap: wrap;
         justify-content: space-evenly;
+        padding-bottom: 20px;
     }
 
     #about {    

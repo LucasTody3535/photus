@@ -1,4 +1,5 @@
 import { setupPhotoRefAndApplyEvent, removeDelayToExecuteAnimFromPhotos, setPhotosMetadata } from "./showcase/showcase.js";
+import { changeTheme } from "./theme-toggler/theme.toggler.js";
 
 let photos = document.getElementsByClassName("photo");
 
@@ -11,3 +12,5 @@ for(let photo of photos) {
 }
 
 setPhotosMetadata();
+
+document.getElementById("theme-btn").addEventListener("click", changeTheme);
